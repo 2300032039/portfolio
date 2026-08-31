@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lakku Santhosh | Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f5f8fc;color:#172033;line-height:1.6}
+a{text-decoration:none}
+header{position:fixed;top:0;width:100%;z-index:1000;background:#071329}
+.navbar{max-width:1200px;margin:auto;padding:18px 30px;display:flex;justify-content:space-between;align-items:center}
+.logo{color:#fff;font-size:24px;font-weight:bold}.logo span{color:#2196f3}
+nav a{color:#fff;margin-left:24px;font-size:14px}nav a:hover{color:#2196f3}
+.hero{min-height:100vh;padding:130px 8% 70px;background:linear-gradient(135deg,#050e20,#0b2552);color:#fff;display:flex;align-items:center}
+.hero-inner{max-width:1200px;width:100%;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}
+.hero small{color:#2196f3;font-size:20px;font-weight:bold}
+.hero h1{font-size:58px;line-height:1.1;margin:10px 0}
+.hero h2{color:#4ca7ff;font-size:27px}
+.hero p{color:#d7dfed;font-size:18px;margin:20px 0;max-width:650px}
+.btn{display:inline-block;padding:13px 24px;border-radius:7px;margin:6px 8px 6px 0;font-weight:bold}
+.primary{background:#2196f3;color:#fff}.outline{border:1px solid #fff;color:#fff}
+.primary:hover{background:#0b63ce}.outline:hover{background:#fff;color:#071329}
+.profile{height:390px;width:320px;margin:auto;border:2px solid #2196f3;border-radius:25px;background:#102d5c;display:flex;align-items:center;justify-content:center;color:#2196f3;font-size:95px;font-weight:bold}
+section{padding:85px 8%}.title{text-align:center;font-size:36px;color:#071329;margin-bottom:45px}
+.about-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:45px}
+.about p{font-size:17px;margin-bottom:15px}.info{background:#fff;padding:28px;border-radius:12px;box-shadow:0 5px 20px #0001}
+.info p{margin:10px 0}
+.skills{background:#f5f8fc}.skill-grid{max-width:1100px;margin:auto;display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
+.skill{background:#fff;padding:14px 22px;border-radius:8px;box-shadow:0 4px 15px #0001;font-weight:bold}
+.projects{background:#fff}.cards{max-width:1150px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:#fff;border:1px solid #e5eaf1;padding:26px;border-radius:13px;box-shadow:0 8px 25px #0001;transition:.3s}
+.card:hover{transform:translateY(-7px)}.card h3{color:#1677d2;margin-bottom:12px}.card p{color:#667085}
+.tags{margin-top:15px}.tag{display:inline-block;background:#eaf4ff;color:#1675ce;padding:5px 9px;margin:3px;border-radius:5px;font-size:12px}
+.education{background:#f5f8fc}.edu{max-width:850px;margin:auto;background:#fff;padding:30px;border-left:5px solid #2196f3;border-radius:10px;box-shadow:0 5px 20px #0001}
+.certs{background:#fff}.contact{background:linear-gradient(135deg,#061127,#0b2552);color:#fff;text-align:center}.contact .title{color:#fff}
+.contact p{margin:10px}.contact a{color:#fff}.contact a:hover{color:#2196f3}
+footer{background:#030914;color:#aaa;text-align:center;padding:20px}
+@media(max-width:850px){nav{display:none}.hero-inner,.about-grid{grid-template-columns:1fr;text-align:center}.hero h1{font-size:43px}.hero p{margin-left:auto;margin-right:auto}.profile{width:270px;height:320px}.cards{grid-template-columns:1fr}.skill-grid{gap:10px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="navbar">
+<div class="logo"><span>LS</span> Lakku Santhosh</div>
+<nav>
+<a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+<a href="#projects">Projects</a><a href="#education">Education</a>
+<a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-inner">
+<div>
+<small>Hello, I'm</small>
+<h1>Lakku Santhosh</h1>
+<h2>B.Tech CSE (Honors) Student</h2>
+<p>Passionate about software development, web technologies, cloud computing and DevOps. I enjoy learning new technologies and building practical solutions.</p>
+<a class="btn primary" href="resume.pdf" download>Download Resume</a>
+<a class="btn outline" href="#contact">Contact Me</a>
+</div>
+<div class="profile">LS</div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">About Me</h2>
+<div class="about-grid">
+<div class="about">
+<p>I am a Computer Science Engineering student pursuing B.Tech CSE (Honors) at KL University.</p>
+<p>I have a strong interest in software development, web technologies, databases, cloud computing and DevOps.</p>
+<p>I enjoy solving programming problems, developing projects and continuously improving my technical skills.</p>
+</div>
+<div class="info">
+<p><b>🎓 Degree:</b> B.Tech CSE (Honors)</p>
+<p><b>🏫 University:</b> KL University</p>
+<p><b>📅 Graduation:</b> 2027</p>
+<p><b>📍 Location:</b> Andhra Pradesh, India</p>
+</div>
+</div>
+</section>
+
+<section class="skills" id="skills">
+<h2 class="title">Technical Skills</h2>
+<div class="skill-grid">
+<div class="skill">Python</div><div class="skill">Java</div><div class="skill">C / C++</div>
+<div class="skill">JavaScript</div><div class="skill">React.js</div><div class="skill">HTML</div>
+<div class="skill">CSS</div><div class="skill">MySQL</div><div class="skill">PostgreSQL</div>
+<div class="skill">MongoDB</div><div class="skill">AWS</div><div class="skill">Docker</div>
+<div class="skill">Jenkins</div><div class="skill">Git</div><div class="skill">GitHub</div>
+<div class="skill">Data Structures & Algorithms</div>
+</div>
+</section>
+
+<section class="projects" id="projects">
+<h2 class="title">My Projects</h2>
+<div class="cards">
+<div class="card"><h3>Hospital Management System</h3><p>Full-stack application for managing doctors, patients and appointments with authentication.</p><div class="tags"><span class="tag">React.js</span><span class="tag">Spring Boot</span><span class="tag">MySQL</span><span class="tag">Docker</span><span class="tag">Jenkins</span></div></div>
+<div class="card"><h3>Freelancer Marketplace</h3><p>Web-based marketplace connecting clients and freelancers with project management and tracking.</p><div class="tags"><span class="tag">React.js</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span></div></div>
+<div class="card"><h3>Personal Portfolio</h3><p>Responsive portfolio website showcasing education, technical skills, projects and certifications.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></div>
+</div>
+</section>
+
+<section class="education" id="education">
+<h2 class="title">Education</h2>
+<div class="edu"><h3>Bachelor of Technology - CSE (Honors)</h3><p><b>KL University</b></p><p>Computer Science & Engineering</p><p>Expected Graduation: <b>2027</b></p></div>
+</section>
+
+<section class="certs" id="certifications">
+<h2 class="title">Certifications</h2>
+<div class="cards">
+<div class="card"><h3>AWS Certification</h3><p>Amazon Web Services</p></div>
+<div class="card"><h3>MongoDB Associate Database Administrator</h3><p>MongoDB</p></div>
+<div class="card"><h3>Advanced RPA</h3><p>RPA Certification</p></div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2 class="title">Contact Me</h2>
+<p>Open to software development opportunities, collaborations and exciting projects.</p>
+<p>📧 <a href="mailto:2300032039cseh1@gmail.com">2300032039cseh1@gmail.com</a></p>
+<p>📱 <a href="tel:8179939681">8179939681</a></p>
+<p>📍 Andhra Pradesh, India</p>
+<br>
+<a class="btn primary" href="https://github.com/2300032039" target="_blank">GitHub</a>
+<a class="btn outline" href="https://www.linkedin.com/in/lakku-venkata-santhosh-reddy-aa485b31b/" target="_blank">LinkedIn</a>
+<a class="btn outline" href="mailto:2300032039cseh1@gmail.com">Email Me</a>
+</section>
+
+<footer>© 2026 Lakku Santhosh. All Rights Reserved.</footer>
+
+</body>
+</html>
